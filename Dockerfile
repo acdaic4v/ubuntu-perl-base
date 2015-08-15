@@ -1,8 +1,8 @@
 # Dockerfile für Perl Basis Image
-# Jörn Droenner 13.08.2015
+# acdaic4v 13.08.2015
 # Beinhaltet grundlegende Perl Module
 FROM ubuntu:15.04
-MAINTAINER Jörn Droenner <joern.droenner@btc-it-services.com>
+MAINTAINER acdaic4v <acdaic4v@sloervi.de>
 
 # Pakete zum installieren von Perl- Modulen
 RUN apt-get update && apt-get install -y cpanminus make apt-utils \
