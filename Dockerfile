@@ -12,6 +12,7 @@ RUN apt-get update && apt-get install -y cpanminus make apt-utils \
 # Grundlegende Perl Module
 RUN cpanm Class::HPLOO \
 &&  cpanm Date::Calc \
+&&  cpanm Digest::SHA \
 &&  cpanm Test::NoWarnings \
 &&  cpanm Test::Tester \
 &&  cpanm File::Basename \
