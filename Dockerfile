@@ -6,7 +6,7 @@ MAINTAINER acdaic4v <acdaic4v@sloervi.de>
 
 # Pakete zum installieren von Perl- Modulen
 RUN apt-get update && apt-get install -y cpanminus make apt-utils \
-	gcc wget \
+	gcc git wget \
 	zlib1g-dev libexpat1-dev 
 
 # Grundlegende Perl Module
