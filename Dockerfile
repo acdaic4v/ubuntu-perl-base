@@ -21,6 +21,7 @@ RUN cpanm Class::HPLOO \
 &&  cpanm Log::Log4perl \
 &&  cpanm Moose \
 &&  cpanm namespace::autoclean \
+&&  cpanm Redis \
 &&  cpanm Spreadsheet::WriteExcel \
 &&  cpanm Time::Local \
 &&  cpanm Time::localtime \
