@@ -13,6 +13,7 @@ RUN apt-get update && apt-get install -y cpanminus make apt-utils \
 RUN cpanm Class::HPLOO \
 &&  cpanm Date::Calc \
 &&  cpanm Digest::SHA \
+&& cpanm Excel::Writer::XLSX \
 &&  cpanm Test::NoWarnings \
 &&  cpanm Test::Tester \
 &&  cpanm File::Basename \
