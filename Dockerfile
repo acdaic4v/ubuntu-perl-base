@@ -10,8 +10,8 @@ RUN apt-get update && apt-get install -y cpanminus make apt-utils \
 	zlib1g-dev libexpat1-dev 
 
 # Grundlegende Perl Module
-RUN cpanm Class::HPLOO \
-&&  cpanm Date::Calc \
+RUN cpanm -f Class::HPLOO 
+RUN cpanm cpanm Date::Calc \
 &&  cpanm Digest::SHA \
 &&  cpanm Test::NoWarnings \
 &&  cpanm Test::Tester \
