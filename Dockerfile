@@ -1,7 +1,7 @@
 # Dockerfile für Perl Basis Image
 # acdaic4v 13.08.2015
 # Beinhaltet grundlegende Perl Module
-FROM ubuntu:15.10
+FROM ubuntu:16.04
 MAINTAINER acdaic4v <acdaic4v@sloervi.de>
 
 # Pakete zum installieren von Perl- Modulen
