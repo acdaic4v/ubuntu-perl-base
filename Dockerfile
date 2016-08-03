@@ -23,6 +23,7 @@ RUN cpanm Date::Calc \
 &&  cpanm namespace::autoclean \
 &&  cpanm Redis \
 &&  cpanm Spreadsheet::WriteExcel \
+&&  cpanm Spreadsheet::XLSX \
 &&  cpanm Time::Local \
 &&  cpanm Time::localtime \
 &&  cpanm utf8 \
