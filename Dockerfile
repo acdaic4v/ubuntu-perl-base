@@ -28,7 +28,8 @@ RUN cpanm Class::HPLOO \
 &&  cpanm utf8 \
 &&  cpanm XML::Parser \
 &&  cpanm XML::Simple \
-&&  cpanm YAML 
+&&  cpanm YAML \
+&&  cpanm YAML::XS
 
 # CPAN- Verzeichnis wieder aufräumen
 RUN rm -rf .cpanm
