@@ -1,7 +1,7 @@
 # Dockerfile für Perl Basis Image
 # acdaic4v 13.08.2015
 # Beinhaltet grundlegende Perl Module
-FROM ubuntu:15.10
+FROM ubuntu:16.04
 MAINTAINER acdaic4v <acdaic4v@sloervi.de>
 
 # Pakete zum installieren von Perl- Modulen
@@ -10,8 +10,8 @@ RUN apt-get update && apt-get install -y cpanminus make apt-utils \
 	zlib1g-dev libexpat1-dev 
 
 # Grundlegende Perl Module
-RUN cpanm Class::HPLOO \
-&&  cpanm Date::Calc \
+RUN cpanm -f Class::HPLOO 
+RUN cpanm Date::Calc \
 &&  cpanm Digest::SHA \
 &&  cpanm Test::NoWarnings \
 &&  cpanm Test::Tester \
@@ -23,6 +23,7 @@ RUN cpanm Class::HPLOO \
 &&  cpanm namespace::autoclean \
 &&  cpanm Redis \
 &&  cpanm Spreadsheet::WriteExcel \
+&&  cpanm Spreadsheet::XLSX \
 &&  cpanm Time::Local \
 &&  cpanm Time::localtime \
 &&  cpanm utf8 \
