@@ -23,6 +23,7 @@ RUN cpanm -f Class::HPLOO \
 &&  cpanm namespace::autoclean \
 &&  cpanm Redis \
 &&  cpanm Spreadsheet::WriteExcel \
+&&  cpanm Excel::Writer::XLSX \
 &&  cpanm Spreadsheet::XLSX \
 &&  cpanm Time::Local \
 &&  cpanm Time::localtime \
