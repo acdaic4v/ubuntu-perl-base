@@ -18,6 +18,7 @@ RUN cpanm -f Class::HPLOO \
 &&  cpanm File::Basename \
 &&  cpanm FileHandle \
 &&  cpanm JSON \
+&&  cpanm JSON::XS \
 &&  cpanm Log::Log4perl \
 &&  cpanm Moose \
 &&  cpanm namespace::autoclean \
