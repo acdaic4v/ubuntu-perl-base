@@ -13,21 +13,24 @@ RUN apt-get update && apt-get install -y cpanminus make apt-utils \
 RUN cpanm -f Class::HPLOO \
 &&  cpanm Date::Calc \
 &&  cpanm Digest::SHA \
-&&  cpanm Test::NoWarnings \
-&&  cpanm Test::Tester \
+&&  cpanm Excel::Writer::XLSX \
 &&  cpanm File::Basename \
 &&  cpanm FileHandle \
 &&  cpanm JSON \
+&&  cpanm JSON::XS \
 &&  cpanm Log::Log4perl \
 &&  cpanm Moose \
 &&  cpanm namespace::autoclean \
 &&  cpanm Redis \
 &&  cpanm Spreadsheet::WriteExcel \
-&&  cpanm Excel::Writer::XLSX \
 &&  cpanm Spreadsheet::XLSX \
+&&  cpanm Test::NoWarnings \
+&&  cpanm Test::Tester \
 &&  cpanm Time::Local \
 &&  cpanm Time::localtime \
 &&  cpanm utf8 \
+&&  cpanm Util::XML_YAML_Perl \
+&&  cpanm XML::CSV \
 &&  cpanm XML::Parser \
 &&  cpanm XML::Simple \
 &&  cpanm YAML \
