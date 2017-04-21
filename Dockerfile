@@ -41,7 +41,7 @@ RUN cpanm -f Class::HPLOO \
 &&  cpanm YAML::XS
 
 # Dependencies
-RUN cpanm Util::XML_YAML_Perl
+RUN cpanm -f Util::XML_YAML_Perl
 
 # CPAN- Verzeichnis wieder aufräumen
 RUN rm -rf .cpanm
