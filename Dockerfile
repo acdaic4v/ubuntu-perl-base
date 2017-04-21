@@ -26,8 +26,10 @@ RUN cpanm -f Class::HPLOO \
 &&  cpanm Spreadsheet::XLSX \
 &&  cpanm Test::More \
 &&  cpanm Test::NoWarnings \
-&&  cpanm Text::CSV_XS \
+&&  cpanm Test::Pod \
+&&  cpanm Test::Pod::Coverage \
 &&  cpanm Test::Tester \
+&&  cpanm Text::CSV_XS \
 &&  cpanm Time::Local \
 &&  cpanm Time::localtime \
 &&  cpanm utf8 \
