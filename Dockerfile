@@ -26,6 +26,7 @@ RUN cpanm -f Class::HPLOO \
 &&  cpanm Spreadsheet::XLSX \
 &&  cpanm Test::More \
 &&  cpanm Test::NoWarnings \
+&&  cpanm Text::CSV_XS \
 &&  cpanm Test::Tester \
 &&  cpanm Time::Local \
 &&  cpanm Time::localtime \
