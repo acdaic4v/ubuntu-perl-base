@@ -24,7 +24,7 @@ RUN cpanm -f Class::HPLOO \
 &&  cpanm Redis \
 &&  cpanm Spreadsheet::WriteExcel \
 &&  cpanm Spreadsheet::XLSX \
-%%  cpanm Test::More \
+&&  cpanm Test::More \
 &&  cpanm Test::NoWarnings \
 &&  cpanm Test::Tester \
 &&  cpanm Time::Local \
