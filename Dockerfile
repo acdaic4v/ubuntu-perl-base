@@ -24,17 +24,21 @@ RUN cpanm -f Class::HPLOO \
 &&  cpanm Redis \
 &&  cpanm Spreadsheet::WriteExcel \
 &&  cpanm Spreadsheet::XLSX \
+%%  cpanm Test::More \
 &&  cpanm Test::NoWarnings \
 &&  cpanm Test::Tester \
 &&  cpanm Time::Local \
 &&  cpanm Time::localtime \
 &&  cpanm utf8 \
-&&  cpanm Util::XML_YAML_Perl \
 &&  cpanm XML::CSV \
 &&  cpanm XML::Parser \
 &&  cpanm XML::Simple \
 &&  cpanm YAML \
+&&  cpanm YAML::AppConfig \
 &&  cpanm YAML::XS
+
+# Dependencies
+RUN cpanm Util::XML_YAML_Perl
 
 # CPAN- Verzeichnis wieder aufräumen
 RUN rm -rf .cpanm
