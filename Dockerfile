@@ -14,6 +14,8 @@ RUN cpanm -f Class::HPLOO \
 &&  cpanm Date::Calc \
 &&  cpanm Digest::SHA \
 &&  cpanm Excel::Writer::XLSX \
+&&  cpanm Exception::Base \
+&&  cpanm Exception::Warning \
 &&  cpanm File::Basename \
 &&  cpanm FileHandle \
 &&  cpanm JSON \
