@@ -7,7 +7,8 @@ MAINTAINER acdaic4v <acdaic4v@sloervi.de>
 # Pakete zum installieren von Perl- Modulen
 RUN apt-get update && apt-get install -y cpanminus make apt-utils \
 	gcc git vim wget \
-	zlib1g-dev libexpat1-dev 
+	zlib1g-dev libexpat1-dev \
+	openssl libssl-dev
 
 # Grundlegende Perl Module
 RUN cpanm -f Class::HPLOO \
