@@ -24,6 +24,7 @@ RUN cpanm -f Class::HPLOO \
 &&  cpanm Redis \
 &&  cpanm Spreadsheet::WriteExcel \
 &&  cpanm Excel::Writer::XLSX \
+&&  cpanm SOAP::Lite \
 &&  cpanm Spreadsheet::XLSX \
 &&  cpanm Time::Local \
 &&  cpanm Time::localtime \
