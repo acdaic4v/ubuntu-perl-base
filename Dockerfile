@@ -17,8 +17,10 @@ RUN cpanm -f Class::HPLOO \
 &&  cpanm Test::Tester \
 &&  cpanm File::Basename \
 &&  cpanm FileHandle \
+&&  cpanm IO::Socket::SSL \
 &&  cpanm JSON \
 &&  cpanm Log::Log4perl \
+&&  cpanm LWP::Protocol::https \
 &&  cpanm Moose \
 &&  cpanm namespace::autoclean \
 &&  cpanm Redis \
