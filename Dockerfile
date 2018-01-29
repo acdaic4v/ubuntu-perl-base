@@ -29,6 +29,7 @@ RUN cpanm -f Class::HPLOO \
 &&  cpanm Time::Local \
 &&  cpanm Time::localtime \
 &&  cpanm utf8 \
+&&  cpanm XML::Hash \
 &&  cpanm XML::Parser \
 &&  cpanm XML::Simple \
 &&  cpanm YAML \
